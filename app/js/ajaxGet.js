@@ -1,5 +1,5 @@
 function ajaxGet(url, callback) {
-	var f = callback || function(data) { };
+	var f = callback;
 
 	var request = new XMLHttpRequest();
 
